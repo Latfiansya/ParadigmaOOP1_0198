@@ -1,7 +1,4 @@
 #include <iostream>
-using namespace std;
-
-#include <iostream>
 #include <string>
 using namespace std;
 
@@ -21,6 +18,7 @@ public:
         return a + b;
     }
 };
+
 class pelajar : public orang {
 public:
     string sekolah;

@@ -37,6 +37,7 @@ public:
 void pasien::tambahDokter(dokter* pDokter) {
     daftar_dokter.push_back(pDokter);
 }
+
 void pasien::cetakDokter() {
     cout << "Daftar Dokter yang menangani pasien \"" << this->nama << "\":\n";
     for (auto& a : daftar_dokter) {

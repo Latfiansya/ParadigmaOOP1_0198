@@ -10,4 +10,4 @@ public:
 		cout << "jantung dimatikan\n";
 	}
 };
-#endif#pragma once
+#endif
